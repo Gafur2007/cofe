@@ -1,0 +1,55 @@
+.footer {
+    background-color: #2C343E;
+    margin-top: 200px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+
+        & .nav {
+            padding-left: 70px;
+
+            & .nav__list {
+                display: flex;
+                align-items: center;
+            }
+
+            & .nav__item {
+                padding-left: 33px;
+            }
+
+            & .nav__link {
+                color: #83888F;
+                font-family: "Barlow";
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 15px;
+                text-transform: uppercase;
+            }
+
+            & .nav__link:hover {
+                text-decoration: overline;
+                color: #fff;
+            }
+        }
+
+        & .nav__navber {
+            margin-left: 420px;
+
+            & .nav__list {
+                display: flex;
+                align-items: center;
+            }
+
+            & .nav__item {
+                padding-left: 33px;
+            }
+
+            path:hover {
+                fill: #FDD6BA;
+                cursor: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.linkflex {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    background: #0E8784;
+    margin-top: 40px;
+    padding-top: 15px;
+    margin-left: 1077px;
+
+    & .link1 {
+        padding-left: 35px;
+        color: #FEFCF7;
+        font-family: Fraunces 9pt;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+    }
+}
